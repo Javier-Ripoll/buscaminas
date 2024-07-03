@@ -1,0 +1,102 @@
+/*CSS ESPECIFICO*/
+body{
+    background-color: aliceblue;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+nav{
+    background-color: rgb(255, 63, 63);
+    height: 80px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+
+
+/*ID Y CLASES*/
+#navegacion{
+    display: grid;
+    grid-template-columns: repeat(2,120px);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    margin-left: 700px;
+}
+#navegacion p{
+    margin-top: 10px;
+}
+#pHover:hover{
+    color: blue;
+    
+}
+
+#gridarriba{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    align-items: center;
+    border-left: 7px solid gray;
+    border-top: 7px solid gray;
+    border-right: 7px solid white;
+    border-bottom: 7px solid white;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: red;
+
+}
+#gridarriba img{
+    padding-left: 5px;
+    padding-top: 0px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: repeat(5,60px);
+    grid-template-rows: repeat(5,60px);
+    align-content: center;   
+    border-left: 7px solid gray;
+    border-top: 7px solid gray;
+    border-right: 7px solid white;
+    border-bottom: 7px solid white;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0px;
+
+
+
+}
+#maquina{
+    background-color: rgb(243, 238, 238);
+    width: 350px;
+    height: 470px;
+    margin-left: 820px;
+    align-items: center;
+    margin-top: 40px;
+    border-right: 7px solid gray;
+    border-bottom: 7px solid gray;
+    border-left: 7px solid white;
+    border-top: 7px solid white;
+
+}
+.itemsBorder{
+    margin-left: 20px;
+    align-items: center;
+    align-content: center;
+    width: 20px;
+    height: 20px;
+    border-right: 7px solid white;
+    border-bottom: 7px solid white;
+    border-left: 7px solid gray;
+    border-top: 7px solid gray;
+    padding: 10px;
+    padding-left: 20px;
+}
